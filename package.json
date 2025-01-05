@@ -1,0 +1,38 @@
+{
+    "name": "bsky-justwatched-bot",
+    "version": "0.0.0-dev-01",
+    "description": "bsky-justwatched-bot",
+    "main": "./dist/index.js",
+    "scripts": {
+        "start": "node .",
+        "build": "tsc",
+        "dev": "ts-node-dev --respawn --no-deps --rs --cls ./src/index.ts",
+        "eslint": "eslint src/**/*.ts"
+    },
+    "keywords": [
+        "bsky-justwatched-bot",
+        "created-with-typescript-new-project-scaffolding",
+        "template",
+        "typescript",
+        "node",
+        "nodejs"
+    ],
+    "author": {
+        "email": "info@example.com",
+        "name": "Change me"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "typescript": "4.9.4",
+        "@types/node": "18.11.18",
+        "eslint": "8.30.0",
+        "@typescript-eslint/eslint-plugin": "5.47.1",
+        "@typescript-eslint/parser": "5.46.1",
+        "eslint-plugin-prettier": "4.2.1",
+        "ts-node": "10.9.1",
+        "ts-node-dev": "2.0.0"
+    },
+    "dependencies": {
+        "winston": "3.8.2"
+    }
+}
